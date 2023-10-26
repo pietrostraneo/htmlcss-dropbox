@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* TEST LAYOUT */
+
+.bgred{
+    background-color: red;
+    border: 1px solid black;
+}
+
+.height250{
+    height: 250px;
+}
+
+.height400{
+    height: 400px;
+}
+
+.height75{
+    height: 75px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* COMMON */
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-hd{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bgblue{
+    background-color: blue;
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+}
+
+/* COLONNE */
+
+.col20{
+    width: calc(100%/5);
+}
+
+.col33{
+    width: calc(100%/3);
+}
+
+.col40{
+    width: 40%;
+}
+
+.col50{
+    width: 50%;
+}
+
+.col60{
+    width: 60%;
+}
+
+.col100{
+    width: 100%;
+}
+
+
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    height: 400px;
+}
