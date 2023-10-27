@@ -37,17 +37,18 @@
 }
 
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.container-sm{
     max-width: 1000px;
     margin: 0 auto;
 }
 
+.container-sm{
+    max-width: 850px;
+    margin: 120px auto;
+}
+
 .bgblue{
     background-color: #B3D0E7;
+    padding: 45px 0;
 }
 
 .square{
@@ -74,12 +75,17 @@
 
 .img-size{
     width: 100%;
+    position: absolute;
 }
 
 /* COLONNE */
 
 .col20{
     width: calc(100%/5);
+}
+
+.col30{
+    width: 30%;
 }
 
 .col33{
@@ -100,6 +106,10 @@
 
 .col60{
     width: 60%;
+}
+
+.col70{
+    width: 70%;
 }
 
 .col100{
@@ -127,6 +137,14 @@ header ul li{
     border: none;
 }
 
+.trial{
+    background-color: #0160FF;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin-bottom: 25px;
+}
+
 .padding-1510{
     padding: 15px 0px;
 }
@@ -134,8 +152,61 @@ header ul li{
 
 /* MAIN */
 
+main h1{
+    font-size: 60px;
+}
+
+.maincontent h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
 .jumbo{
-    width: 50%;
+    position: relative;
+}
+
+.billing{
+    display: flex;
+    gap: 30px;
+}
+
+.plancontent{
+    min-height: 900px;
+    border: 1px solid #E5E5E7;
+}
+
+.subkind{
+    text-align: center;
+    border-bottom: 1px solid #E5E5E7;
+    padding: 10px;
+}
+
+.subscription{
+    padding: 25px;
+}
+
+.subprice p{
+    color: gray;
+    margin-top: 15px;
+}
+
+.subscription ul{
+    list-style-type: none;
+    margin: 35px 0;
+}
+
+.subscription li{
+    margin: 10px 0;
+}
+
+.subscription h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 25%;
+    margin: 20px 0;
 }
 
 /* FOOTER */
