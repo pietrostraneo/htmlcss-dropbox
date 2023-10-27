@@ -47,7 +47,7 @@
 }
 
 .bgblue{
-    background-color: blue;
+    background-color: #B3D0E7;
 }
 
 .square{
@@ -68,6 +68,14 @@
     margin: 40px 0;
 }
 
+.spacebet{
+    justify-content: space-between;
+}
+
+.img-size{
+    width: 100%;
+}
+
 /* COLONNE */
 
 .col20{
@@ -86,9 +94,9 @@
     width: 40%;
 }
 
-.col50{
+/* .col50{
     width: 50%;
-}
+} */
 
 .col60{
     width: 60%;
@@ -102,7 +110,33 @@
 
 /* HEADER */
 
+header ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    margin: 0 10px;
+}
+
+.start{
+    background-color: #0160FF;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+}
+
+.padding-1510{
+    padding: 15px 0px;
+}
+
+
 /* MAIN */
+
+.jumbo{
+    width: 50%;
+}
 
 /* FOOTER */
 
