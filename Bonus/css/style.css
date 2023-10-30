@@ -6,6 +6,18 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+@keyframes example{
+    from {opacity: 0; display: none;}
+    to {opacity: 100; display: block;}
+}
+
+@keyframes buttoncolor{
+    from{background-color: white;}
+    to {background-color: #0160FF;}
+    from{color: black;}
+    to{color: white;}
+}
+
 /* TEST LAYOUT */
 
 .bgred{
@@ -274,6 +286,16 @@ hr{
     font-size: 15px;
 }
 
+.partcontent button:hover{
+    background-color: #0160FF;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    animation-name: buttoncolor;
+    animation-duration: 2s;
+}
+
 .businesscontent p{
     margin: 25px 0;
 }
@@ -361,13 +383,24 @@ hr{
     font-size: 13px;
 }
 
-.askcontent b:last-child{
-    margin-left: 27%;
+.fa-caret-down{
+    margin-left: 26%;
     font-size: 20px;
 }
 
 .askcontent h2{
     font-size: 35px;
+}
+
+.askcontent p{
+    display: none;
+    opacity: 0;
+}
+
+.askcontent:hover p{
+    display: block;
+    animation-name: example;
+    animation-duration: 3s;
 }
 
 /* FOOTER */
