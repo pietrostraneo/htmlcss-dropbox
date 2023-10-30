@@ -12,3 +12,8 @@ Contenitore -> riga -> colonna -> content;
 Buon lavoro!
 
 ESERCIZIO CONSEGNATO
+
+NEL BONUS:
+
+1. Il bottone "Trova un partner" ha un effetto su :hover
+2. La sezione delle "Domande Frequenti" ha un effetto su :hover
