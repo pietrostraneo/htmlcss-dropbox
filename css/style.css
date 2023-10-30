@@ -220,6 +220,10 @@ main h1{
     padding: 25px;
 }
 
+.subscription .trial{
+    width: 100%;
+}
+
 .subprice p{
     color: gray;
     margin-top: 15px;
@@ -323,7 +327,7 @@ hr{
 .squarecontent-central{
     padding: 30px;
     background-color: #F5F5F5;
-    height: calc(100vw / 6);
+    height: calc(100vw / 3);
 }
 
 .squarecontent-central img{
