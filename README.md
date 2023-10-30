@@ -10,3 +10,5 @@ Non incartatevi nei dettagli: fate prima le cose fondamentali, poi passate al de
 Contenitore -> riga -> colonna -> content;
 
 Buon lavoro!
+
+ESERCIZIO CONSEGNATO
