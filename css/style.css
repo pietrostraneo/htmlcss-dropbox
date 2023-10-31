@@ -176,10 +176,8 @@ header ul li{
     padding: 15px 0px;
 }
 
-.headercontent i{
-    position: absolute;
-    top: 270px;
-    font-size: 30px;
+.fa-arrow-down{
+    font-size: 35px;
 }
 
 .headercontent p{
@@ -328,6 +326,7 @@ hr{
     padding: 30px;
     background-color: #F5F5F5;
     height: calc(100vw / 3);
+    overflow: auto;
 }
 
 .squarecontent-central img{
